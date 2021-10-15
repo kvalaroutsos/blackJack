@@ -81,7 +81,7 @@ while play:
     if play_again[0]=='n':
         play=False
     clear()
-print(f'Final resules are\nPlayer wins {player_wins} times\nDealer wins {dealer_wins} times\nWe had {draws} draws')
+print(f'Final results are\nPlayer wins {player_wins} times\nDealer wins {dealer_wins} times\nWe had {draws} draws')
     
 
 
