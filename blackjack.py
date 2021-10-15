@@ -7,7 +7,6 @@ def clear(): os.system('cls') #on Windows System
 # Basic parameters
 cards_=[11,2,3,4,5,6,7,8,9,10,10,10,10]
 play=True
-busted=False
 player_wins=0
 dealer_wins=0
 draws=0
@@ -15,6 +14,7 @@ draws=0
 
 while play:
     under_17=True
+    busted=False
     dealer=[]
     player=random.choices(cards_,k=2)
     dealer=[random.choice(cards_)]
